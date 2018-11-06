@@ -1,5 +1,6 @@
 var password = "help";
 var input =  password;
+var newInput;
 
 
 checkUnique();
@@ -18,6 +19,7 @@ function checkUnique()
         }
         if (arr1 !== arr2) {
             console.log("They have unique characters");
+            newInput = inputArr.join()
         } else {
             console.log("They have simliar characters")
         }
